@@ -1,6 +1,7 @@
 require "nvchad.options"
 
--- add yours here!
+local opt = vim.opt
 
--- local o = vim.o
--- o.cursorlineopt ='both' -- to enable cursorline!
+opt.spell = true
+opt.spelllang = { "en_us", "es_mx" }
+opt.spellfile = "/home/bryant/.config/nvim/spell/en.utf-8.add"
